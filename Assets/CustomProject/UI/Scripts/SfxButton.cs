@@ -30,7 +30,7 @@ namespace CustomProject
 
         private void Click()
         {
-            //PlayClick from audio manager
+            AudioManagerInstance.Instance.PlayClick();
         }
 
         #endregion
